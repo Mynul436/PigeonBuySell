@@ -7,5 +7,9 @@
         public string Name { get; set; }
         public DateTime DateOfBirth { get; set; }
         public ICollection<Review> Reviews { get; set; }
+        public ICollection<PigeonCategory> PigeonCategories { get; set; }
+
+        public ICollection<PigeonOwner> pigeonOwners { get; set; }
+
     }
 }

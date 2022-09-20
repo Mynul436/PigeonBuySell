@@ -7,5 +7,7 @@
         public string Gym { get; set; }
 
         public District District { get; set; }
+
+        public ICollection<PigeonOwner> PigeonOwners { get; set; }
     }
 }

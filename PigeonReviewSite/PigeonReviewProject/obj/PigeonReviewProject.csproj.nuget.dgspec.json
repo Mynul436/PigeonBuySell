@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SWE 3.2\\Asp .net core\\PigeonBuySell\\PigeonBuySellSite\\PigeonBuySellProject\\PigeonReviewProject.csproj": {}
+    "E:\\SWE 3.2\\Asp .net core\\PigeonReview\\PigeonReviewSite\\PigeonReviewProject\\PigeonReviewProject.csproj": {}
   },
   "projects": {
-    "E:\\SWE 3.2\\Asp .net core\\PigeonBuySell\\PigeonBuySellSite\\PigeonBuySellProject\\PigeonReviewProject.csproj": {
+    "E:\\SWE 3.2\\Asp .net core\\PigeonReview\\PigeonReviewSite\\PigeonReviewProject\\PigeonReviewProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SWE 3.2\\Asp .net core\\PigeonBuySell\\PigeonBuySellSite\\PigeonBuySellProject\\PigeonReviewProject.csproj",
+        "projectUniqueName": "E:\\SWE 3.2\\Asp .net core\\PigeonReview\\PigeonReviewSite\\PigeonReviewProject\\PigeonReviewProject.csproj",
         "projectName": "PigeonReviewProject",
-        "projectPath": "E:\\SWE 3.2\\Asp .net core\\PigeonBuySell\\PigeonBuySellSite\\PigeonBuySellProject\\PigeonReviewProject.csproj",
+        "projectPath": "E:\\SWE 3.2\\Asp .net core\\PigeonReview\\PigeonReviewSite\\PigeonReviewProject\\PigeonReviewProject.csproj",
         "packagesPath": "C:\\Users\\Mynul\\.nuget\\packages\\",
-        "outputPath": "E:\\SWE 3.2\\Asp .net core\\PigeonBuySell\\PigeonBuySellSite\\PigeonBuySellProject\\obj\\",
+        "outputPath": "E:\\SWE 3.2\\Asp .net core\\PigeonReview\\PigeonReviewSite\\PigeonReviewProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mynul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,12 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.9, )"
             },

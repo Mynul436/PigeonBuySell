@@ -12,8 +12,8 @@ internal class Program
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
-        //object value = builder.Services.AddDbContext<PigeonDBContext>(options =>
-        //options.UseSqlServer(builder.Configuration.GetConnectionString("PigeonAPIDb")));
+        builder.Services.AddDbContext<PigeonDBContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("PigeonAPIDb")));
 
 
         builder.Services.AddSwaggerGen();
