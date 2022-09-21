@@ -21,6 +21,9 @@ internal class Program
         builder.Services.AddScoped<IPigeonRepository, PigeonRepository>();
         builder.Services.AddScoped<ICattegoryRepository, CategoryRepository>();
         builder.Services.AddScoped<IDistrictRepository, DistrictRepository>();
+        builder.Services.AddScoped<IOwnerRepository, OwnerRepository>();
+        builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
+        builder.Services.AddScoped<IReviewerRepository, ReviewerRepository>();
 
         builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 

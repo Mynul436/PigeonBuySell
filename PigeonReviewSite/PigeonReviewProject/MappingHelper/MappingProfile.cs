@@ -13,6 +13,12 @@ namespace PigeonReviewProject.MappingHelper
             CreateMap<Category, CategoryDto>();
 
             CreateMap<District,DistrictDto>();
+
+            CreateMap<Owner, OwnerDto>();
+
+            CreateMap<Review, ReviewDto>();
+
+            CreateMap<Reviewer, ReviewerDto>();
         }
     }
 }
