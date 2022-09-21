@@ -118,3 +118,5 @@ E:\SWE 3.2\Asp .net core\PigeonReview\PigeonReviewSite\PigeonReviewProject\obj\D
 E:\SWE 3.2\Asp .net core\PigeonReview\PigeonReviewSite\PigeonReviewProject\obj\Debug\net6.0\ref\PigeonReviewProject.dll
 E:\SWE 3.2\Asp .net core\PigeonReview\PigeonReviewSite\PigeonReviewProject\bin\Debug\net6.0\Humanizer.dll
 E:\SWE 3.2\Asp .net core\PigeonReview\PigeonReviewSite\PigeonReviewProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\SWE 3.2\Asp .net core\PigeonReview\PigeonReviewSite\PigeonReviewProject\bin\Debug\net6.0\AutoMapper.dll
+E:\SWE 3.2\Asp .net core\PigeonReview\PigeonReviewSite\PigeonReviewProject\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

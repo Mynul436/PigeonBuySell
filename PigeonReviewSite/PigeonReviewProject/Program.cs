@@ -1,5 +1,11 @@
+
+global using PigeonReviewProject.Models;
+
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using PigeonReviewProject.DBContext;
+using PigeonReviewProject.Interfaces;
+using PigeonReviewProject.Repositories;
 
 internal class Program
 {
@@ -11,6 +17,13 @@ internal class Program
 
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+        builder.Services.AddScoped<IPigeonRepository, PigeonRepository>();
+        builder.Services.AddScoped<ICattegoryRepository, CategoryRepository>();
+        builder.Services.AddScoped<IDistrictRepository, DistrictRepository>();
+
+        builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddDbContext<PigeonDBContext>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("PigeonAPIDb")));
